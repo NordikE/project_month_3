@@ -9,7 +9,8 @@ section {
 
 section h2 {
   text-align: left;
-  margin: 2em;
+  font-size: 1.8rem;
+  margin: 2em 11em;
 }
 
 section h2,
@@ -20,12 +21,13 @@ h3 {
 
 .section-book-row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10em;
 }
 
 .section-book-cover {
-  width: 13em;
-  height: 20em;
+  width: 12em;
+  height: 17em;
 }
 
 .section-book-author {
