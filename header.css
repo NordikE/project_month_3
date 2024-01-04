@@ -1,2 +1,10 @@
 /* font-family: "Sofia Sans", sans-serif;
 font-family: "Playfair Display", serif; */
+
+body {
+  margin: 0;
+  background: black;
+}
+
+header {
+}
