@@ -1,2 +1,48 @@
 /* font-family: "Sofia Sans", sans-serif;
 font-family: "Playfair Display", serif; */
+
+.footer-light-container {
+  font-family: "Playfair Display", serif;
+  color: #31496b;
+  background-color: #f4f2f3;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.footer-help,
+.footer-about,
+.footer-plus {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-help {
+  width: 20em;
+  padding: 2em 1em 2em 2em;
+}
+
+.footer-about,
+.footer-plus {
+  width: 20em;
+  padding: 2em 1em;
+}
+
+.footer-help-links,
+.footer-about-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-plus {
+  text-align: center;
+}
+
+.footer-image {
+  width: 25em;
+  padding: 2em;
+}
+.footer-image img {
+  max-width: 100%;
+}
