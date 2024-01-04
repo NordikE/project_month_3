@@ -3,8 +3,39 @@ font-family: "Playfair Display", serif; */
 
 body {
   margin: 0;
-  background: black;
 }
 
-header {
+.header-slider-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header-slider-wrapper {
+  margin: 0;
+  position: relative;
+  box-shadow: 0px 4px 11.6px 0px rgba(0, 0, 0, 0.39);
+}
+
+.header-slider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  aspect-ratio: 1/0.5;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.header-slider img {
+  height: 77%;
+  flex: 1 0 100%;
+  position: cover;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.header-slider-buttons {
+  position: absolute;
 }
