@@ -1,2 +1,30 @@
 /* font-family: "Sofia Sans", sans-serif;
 font-family: "Playfair Display", serif; */
+
+.nav-light-container {
+  background-color: #f4f2f3;
+}
+
+.nav-links {
+  list-style: none;
+  font-family: "Sofia Sans", sans-serif;
+  color: #31496b;
+}
+
+.nav-dropdown-links {
+  display: none;
+  position: absolute;
+  list-style: none;
+  font-family: "Sofia Sans", sans-serif;
+  color: #31496b;
+}
+
+.nav-dropdown-links,
+.nav-dropdown-nested {
+  display: none;
+}
+
+.has-dropdown:hover > .nav-dropdown-links,
+.nav-dropdown-links .has-dropdown:hover > .nav-dropdown-nested {
+  display: block;
+}
