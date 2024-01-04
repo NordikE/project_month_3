@@ -34,14 +34,70 @@ body {
   position: cover;
   scroll-snap-align: start;
   object-fit: cover;
+  animation: slider 15s ease-in-out infinite alternate;
 }
 
 .header-slider-buttons {
   display: flex;
-  column-gap: 2em;
+  column-gap: 0.7em;
   position: absolute;
   bottom: 2em;
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
+}
+
+.header-slider-buttons a {
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.07em solid #fff;
+  transition: opacity ease 1s;
+}
+
+.header-slider-buttons a:hover,
+.header-slider-buttons a:checked,
+.header-slider-buttons a:focus {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header-slider-buttons a:checked {
+  animation: slider dissabled;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  90% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
 }
