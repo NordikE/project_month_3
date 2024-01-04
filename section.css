@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+}
+
+section h2 {
+  text-align: left;
+  margin: 2em;
+}
+
+section h2,
+h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+}
+
+.section-book-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-book-cover {
+  width: 13em;
+  height: 20em;
+}
+
+.section-book-author {
+  font-family: "Sofia Sans", sans-serif;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.section-book-price {
+  background: #31496b;
+  color: #f4f2f3;
+  width: fit-content;
+  margin: 0 auto 4em auto;
+  padding: 0.3em 2em;
+  font-size: 1.2rem;
+}
+
+.section-book-price:hover {
+  scale: 103%;
+  box-shadow: 0.1em 0.1em 0.2em #262220;
+}
