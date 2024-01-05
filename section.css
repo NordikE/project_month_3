@@ -70,4 +70,5 @@ section .container {
 .section-book-price:hover {
   scale: 103%;
   box-shadow: 0.1em 0.1em 0.2em #262220;
+  cursor: pointer;
 }
