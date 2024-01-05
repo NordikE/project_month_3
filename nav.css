@@ -6,14 +6,34 @@ font-family: "Playfair Display", serif; */
   display: flex;
 }
 
+.logo img {
+  width: 8em;
+  margin: 2em 4em;
+}
+
+.nav-top {
+  width: 60em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+}
+
+.nav-main {
+  display: flex;
+}
+
 .nav-links {
+  display: flex;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
 }
 
 .nav-dropdown-links {
-  display: none;
   position: absolute;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
@@ -25,11 +45,13 @@ font-family: "Playfair Display", serif; */
   display: none;
 }
 
-.nav-dropdown:hover > .nav-dropdown-links {
+.nav-dropdown:hover
+  > .nav-dropdown-links
+  .nav-dropdown-links
+  .nav-dropdown:hover
+  > .nav-dropdown-nested {
   display: block;
 }
-
-/* .nav-dropdown-links .nav-dropdown:hover > .nav-dropdown-nested */
 
 .nav-buttons {
   display: flex;
