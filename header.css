@@ -3,6 +3,7 @@ font-family: "Playfair Display", serif; */
 
 body {
   margin: 0;
+  background-color: #f4f2f3;
 }
 
 .header-slider-container {
@@ -34,14 +35,59 @@ body {
   position: cover;
   scroll-snap-align: start;
   object-fit: cover;
+  animation: slider 15s ease-in-out infinite alternate;
 }
 
-.header-slider-buttons {
+@keyframes slider {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  60% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  90% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+.header-icons-list ul {
   display: flex;
-  column-gap: 2em;
-  position: absolute;
-  bottom: 2em;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 1;
+  margin: 0 auto;
+}
+
+.header-icons-list li {
+  margin: 2em;
+  list-style: none;
+  background-color: #d6d1c4;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+}
+
+.header-icons-list img {
+  height: 1.7em;
 }
