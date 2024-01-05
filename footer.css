@@ -52,10 +52,16 @@ font-family: "Playfair Display", serif; */
   text-align: center;
 }
 
+.footer-btn {
+  width: 4em;
+  height: 2em;
+}
+
 .footer-image {
   padding: 2em 2em 2em 3em;
 }
 .footer-image img {
   width: 25em;
   height: 25em;
+  border-radius: 2em;
 }
