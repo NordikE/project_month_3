@@ -23,33 +23,41 @@ font-family: "Playfair Display", serif; */
 }
 
 .nav-main {
+  width: 60em;
   display: flex;
+  justify-content: space-around;
 }
 
 .nav-links {
+  width: 40em;
   display: flex;
+  justify-content: space-around;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
 }
 
 .nav-dropdown-links {
+  display: none;
   position: absolute;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
 }
 
-.nav-dropdown-links,
-.nav-dropdown-nested {
+.nav-dropdown-links ul {
   display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #fff;
 }
 
-.nav-dropdown:hover
-  > .nav-dropdown-links
-  .nav-dropdown-links
-  .nav-dropdown:hover
-  > .nav-dropdown-nested {
+.nav-dropdown:hover .nav-dropdown-links {
+  display: block;
+}
+
+.nav-dropdown-links li:hover ul {
   display: block;
 }
 
