@@ -10,7 +10,8 @@ section {
 section h2 {
   text-align: left;
   font-size: 1.8rem;
-  margin: 2em 11em;
+  margin: 2em 0;
+  text-align: start;
 }
 
 section h2,
@@ -22,7 +23,7 @@ h3 {
 .section-book-row {
   display: flex;
   justify-content: center;
-  gap: 10em;
+  gap: 5em;
 }
 
 .section-book-cover {
@@ -48,4 +49,9 @@ h3 {
 .section-book-price:hover {
   scale: 103%;
   box-shadow: 0.1em 0.1em 0.2em #262220;
+}
+
+section .container {
+  margin: 2em auto;
+  width: fit-content;
 }
