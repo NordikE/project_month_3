@@ -74,20 +74,49 @@ body {
   }
 }
 
-.header-icons-list ul {
+.header-icons-list {
+  margin: 1em auto;
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
 }
 
-.header-icons-list li {
-  margin: 2em;
-  list-style: none;
+.header-icon-link {
+  text-decoration: none;
+}
+
+.header-icon-item {
+  margin: 0 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon-image {
+  padding: 0;
   background-color: #d6d1c4;
-  height: 2.5em;
-  width: 2.5em;
+  height: 3em;
+  width: 3em;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-icons-list img {
-  height: 1.7em;
+.header-icon-image img {
+  height: 1.5em;
+}
+
+.header-icon-label label {
+  margin-top: 0.3em;
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 700;
+  color: #262220;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
+.header-icon-image:hover {
+  background-color: #31496b;
 }
