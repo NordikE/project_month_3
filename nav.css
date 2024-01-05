@@ -3,6 +3,7 @@ font-family: "Playfair Display", serif; */
 
 .nav-light-container {
   background-color: #f4f2f3;
+  display: flex;
 }
 
 .nav-links {
@@ -24,7 +25,12 @@ font-family: "Playfair Display", serif; */
   display: none;
 }
 
-.has-dropdown:hover > .nav-dropdown-links,
-.nav-dropdown-links .has-dropdown:hover > .nav-dropdown-nested {
+.nav-dropdown:hover > .nav-dropdown-links {
   display: block;
+}
+
+/* .nav-dropdown-links .nav-dropdown:hover > .nav-dropdown-nested */
+
+.nav-buttons {
+  display: flex;
 }
