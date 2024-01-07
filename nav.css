@@ -103,7 +103,7 @@ font-family: "Playfair Display", serif; */
   display: none;
   position: absolute;
   min-width: 10em;
-  z-index: 0;
+  z-index: 2;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
