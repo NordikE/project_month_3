@@ -1,16 +1,21 @@
 /*#31496b;in font-family: "Sofia Sans", sans-serif;
 font-family: "Playfair Display", serif; */
 
+/* --- Navigation bar with logo, links to all pages, search, log in, my page and shopping cart --- */
 .nav-light-container {
   background-color: #f4f2f3;
   color: #31496b;
   display: flex;
 }
 
+/* --- Company logo --- */
+
 .logo img {
   width: 8em;
   margin: 2em 4em;
 }
+
+/* --- Nav search field and buttons --- */
 
 .nav-top {
   width: 60em;
@@ -19,9 +24,13 @@ font-family: "Playfair Display", serif; */
   align-items: center;
 }
 
+/* --- Nav search field --- */
+
 .nav-search {
   display: flex;
 }
+
+/* --- Nav search button and nav log in, my page and shopping cart buttons --- */
 
 .nav-search-button,
 .nav-log-in,
@@ -32,54 +41,121 @@ font-family: "Playfair Display", serif; */
   object-fit: cover;
 }
 
+/* --- Nav log in, my page and shopping cart buttons ---  */
+
+.nav-buttons {
+  display: flex;
+}
+
+/* --- Nav bar navigation links --- */
+
 .nav-main {
   width: 60em;
   display: flex;
   justify-content: space-around;
 }
 
+/* 
+
+
+
+
+
+
+
+ */
+
 .nav-links {
   width: 40em;
+  position: relative;
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
 
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
 .nav-item a {
   width: 20em;
   height: 3em;
+  padding: 0.5em 2em;
+  margin-left: 1em;
+  border: 2px solid #31496b;
+  border-radius: 1em;
   font-family: "Sofia Sans", sans-serif;
+  font-size: 1.5em;
   color: #31496b;
   background: #fff;
   text-decoration: none;
 }
-.mode {
-  font-family: "Sofia Sans", sans-serif;
-  color: #31496b;
-  text-decoration: none;
-}
+
+/* .dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
 
 .nav-dropdown-links {
   display: none;
   position: absolute;
+  min-width: 10em;
+  z-index: 1;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
+  background-color: #f4f2f3;
 }
 
-/* .nav-dropdown-links ul {
+/* .dropdown-content {
   display: none;
   position: absolute;
-  left: 100%;
-  top: 0;
-  background-color: #f4f2f3;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 } */
 
-.nav-dropdown:hover .nav-dropdown-links {
+.nav-dropdown-links a {
   display: block;
+  position: absolute;
   color: #31496b;
+  background-color: #f4f2f3;
 }
 
-.nav-buttons {
-  display: flex;
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
+
+.nav-dropdown-links a:hover {
+  background-colour: #ddd;
+}
+
+.nav-links:hover .nav-dropdown-links {
+  display: block;
+}
+
+.nav-links:hover .nav-items {
+  background-color: #123456;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+/* --- Dark mode button --- */
+
+.mode {
+  font-family: "Sofia Sans", sans-serif;
+  color: #31496b;
+  text-decoration: none;
 }
