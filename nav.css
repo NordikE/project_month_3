@@ -30,13 +30,34 @@ font-family: "Playfair Display", serif; */
   display: flex;
 }
 
-/* --- Nav search button and nav log in, my page and shopping cart buttons --- */
+/* --- Nav search button --- */
 
-.nav-search-button,
-.nav-log-in,
-.nav-my-page,
+.nav-search-button img {
+  background-color: #f4f2f3;
+  width: 2em;
+  height: auto;
+  object-fit: cover;
+}
+
+.nav-search-field input {
+  margin-left: 20em;
+  height: 2em;
+  width: 15em;
+  border: 2px solid #31496b;
+  border-radius: 1em;
+}
+
+/* --- Nav log in, my page and shopping cart buttons --- */
+
+.nav-log-in img,
+.nav-my-page img,
 .nav-shopping-cart img {
-  width: 3em;
+  background-color: #fff;
+  width: 2em;
+  padding: 0.5em;
+  margin-left: 0.3em;
+  border: 2px solid #31496b;
+  border-radius: 50%;
   height: auto;
   object-fit: cover;
 }
@@ -64,14 +85,14 @@ font-family: "Playfair Display", serif; */
 }
 
 .nav-item a {
-  width: 20em;
+  width: 15em;
   height: 3em;
-  padding: 0.5em 2em;
+  padding: 0.25em 2em;
   margin-left: 1em;
   border: 2px solid #31496b;
   border-radius: 1em;
   font-family: "Sofia Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #31496b;
   background: #fff;
   text-decoration: none;
