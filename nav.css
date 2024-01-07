@@ -129,6 +129,24 @@ font-family: "Playfair Display", serif; */
   background-color: #123456;
 }
 
+.nav-dropdown-nested {
+  display: none;
+  position: absolute;
+  min-width: 10em;
+  z-index: 2;
+  list-style: none;
+  font-family: "Sofia Sans", sans-serif;
+  color: #31496b;
+  background-color: #f4f2f3;
+}
+
+.nav-dropdown-nested a {
+  display: block;
+  position: absolute;
+  color: #31496b;
+  background-color: #f4f2f3;
+}
+
 /* --- Dark mode button --- */
 
 .mode {
