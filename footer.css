@@ -27,14 +27,16 @@ font-family: "Playfair Display", serif; */
 }
 
 .footer-help {
-  width: 20em;
+  width: 25%;
   padding: 2em 1em 2em 2em;
+  text-align: center;
 }
 
 .footer-about,
 .footer-plus {
-  width: 20em;
+  width: 25%;
   padding: 2em 1em;
+  text-align: center;
 }
 
 .footer-plus {
@@ -48,13 +50,13 @@ font-family: "Playfair Display", serif; */
   padding: 0;
 }
 
-.footer-plus {
-  text-align: center;
-}
-
 .footer-btn {
-  width: 4em;
-  height: 2em;
+  border: 0.1em solid #d6d1c4;
+  border-radius: 2.5em;
+  color: #d6d1c4;
+  background: #aa210f;
+  -webkit-text-stroke-width: 0.02em;
+  -webkit-text-stroke-color: #31496b;
 }
 
 .footer-image {

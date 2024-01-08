@@ -119,8 +119,10 @@ body {
   color: #f4f2f3;
   text-transform: uppercase;
   font-size: 0.7em;
+  transition: all ease 1s;
 }
 
 .header-icon-image:hover {
-  background-color: #31496b;
+  background-color: #aa210f;
+  scale: 115%;
 }
