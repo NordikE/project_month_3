@@ -136,40 +136,6 @@ font-family: "Playfair Display", serif; */
   background-color: #123456;
 }
 
-/* --- Nested dropdown menu --- */
-
-.nav-dropdown-nested {
-  display: none;
-  position: absolute;
-  min-width: 10em;
-  z-index: 2;
-  list-style: none;
-  font-family: "Sofia Sans", sans-serif;
-  color: #31496b;
-  background-color: #f4f2f3;
-}
-
-.nav-dropdown-nested a {
-  display: none;
-  position: absolute;
-  color: #31496b;
-  background-color: #f4f2f3;
-}
-
-.nav-dropdown-nested a:hover {
-  background-colour: red;
-}
-
-.nav-dropdown-links:hover .nav-dropdown-nested {
-  display: block;
-  width: 10em;
-  height: 30em;
-}
-
-.nav-dropdown-links:hover .nav-dropdown {
-  background-color: #123456;
-}
-
 /* --- Dark mode button --- */
 
 .mode {
