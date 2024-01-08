@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./nav-dark.css" />
+    <link rel="stylesheet" href="./header-dark.css" />
+    <link rel="stylesheet" href="./section.css" />
+    <link rel="stylesheet" href="./footer-dark.css" />
+    <title>OurBooks Homepage</title>
+  </head>
+  <body>
+    <!-- --- NAV PART --- -->
+
+    <!-- --- Navigation bar with logo, links to all pages, search, log in, my page and shopping cart --- -->
+    <nav>
+      <div class="nav-dark-container">
+        <!-- --- Company logo --- -->
+        <div class="logo">
+          <img
+            src="./images/nav/Logo-light.png"
+            alt="Company logo featuring an animated open book viewed from the top with stars eminating from the pages"
+          />
+        </div>
+        <div class="nav-fields">
+          <!-- --- Nav bar search field and buttons --- -->
+          <div class="nav-top">
+            <!-- --- Nav bar search field --- -->
+            <div class="nav-search">
+              <div class="nav-search-field">
+                <input type="text" placeholder="Browse for books.." />
+              </div>
+              <div class="nav-search-button">
+                <img src="./images/nav/mag_glass_light.png" alt="Search icon" />
+              </div>
+            </div>
+            <!-- --- Nav bar log in, my page and shopping cart --- -->
+            <div class="nav-buttons">
+              <div class="nav-log-in">
+                <img src="./images/nav/padlock_light.png" alt="Log in icon" />
+              </div>
+              <div class="nav-my-page">
+                <img src="./images/nav/my_page_light.png" alt="My page icon" />
+              </div>
+              <div class="nav-shopping-cart">
+                <img
+                  src="./images/nav/shopping_cart_light.png"
+                  alt="Shopping cart icon"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- --- Nav bar navigation links, dropdown and nested dropdown --- -->
+          <div class="nav-main">
+            <ul class="nav-links">
+              <li class="nav-item"><a href="index.html">Sales</a></li>
+              <li class="nav-item"><a href="index.html">New!</a></li>
+              <li class="nav-item nav-dropdown">
+                <a href="index.html">Books</a>
+              </li>
+              <ul class="nav-dropdown-links">
+                <li><a href="index.html">Top</a></li>
+                <li><a href="index.html">Fiction</a></li>
+                <li><a href="index.html">Crime</a></li>
+                <li><a href="index.html">Animated</a></li>
+
+                <li><a href="index.html">Non-Fiction</a></li>
+
+                <li><a href="index.html">Children's</a></li>
+
+                <li><a href="index.html">Other</a></li>
+              </ul>
+              <li class="nav-item"><a href="index.html">Hobby</a></li>
+              <li class="nav-item"><a href="index.html">Games</a></li>
+            </ul>
+
+            <!-- --- Nav dark mode button --- -->
+
+            <a class="mode" href="index-dark.html">Dark Mode</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- --- HEADER PART --- -->
+
+    <header class="main-header">
+      <div class="header-slider-container">
+        <div class="header-slider-wrapper">
+          <div class="header-slider">
+            <a href="#"
+              ><img
+                id="slide-1"
+                src="./images/header/Header-1.jpg"
+                alt="To the left is written Christmas sales on a dark background and to the right - save up to 50% use code: CHRIS2023"
+            /></a>
+            <a href="#"
+              ><img
+                id="slide-2"
+                src="./images/header/Header-2.jpg"
+                alt="To the left is shown books, to the right - spesial limited offer discount for all non-fiction books"
+            /></a>
+            <a href="#"
+              ><img
+                id="slide-3"
+                src="./images/header/Header-3.jpg"
+                alt="To the left is written the largest game collection, to the right - picture of a person plaing computer games"
+            /></a>
+            <a href="#"
+              ><img
+                id="slide-4"
+                src="./images/header/Header-4.jpg"
+                alt="Left side shows books, right side - spesial offer for kids' books, the best prices for children's books for any age online, 70% for each second book"
+            /></a>
+            <a href="#"
+              ><img
+                id="slide-5"
+                src="./images/header/Header-5.jpg"
+                alt="Check our top-list books, find the top 100 popular books with best prices, five books standing side by side"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="header-icons-list">
+        <a href="" class="header-icon-link" id="header-icon-link-1">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-books.png"
+                alt="Two books near each other"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">New books</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-2">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-sale.png"
+                alt="Sign of percent"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Sales</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-3">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-list.png"
+                alt="Three lines with dots"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Top-lists</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-4">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-gift.png"
+                alt="Three lines with dots"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Gifts</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-5">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-study.png"
+                alt="Student Bachelor Graduation Cap University Hat"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Educational</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-6">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-hobby.png"
+                alt="Painting sign"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Hobbies</label>
+            </div>
+          </div>
+        </a>
+        <a href="" class="header-icon-link" id="header-icon-link-7">
+          <div class="header-icon-item">
+            <div class="header-icon-image">
+              <img
+                src="./images/header/Icons-light-mode/icon-game.png"
+                alt="Game sign"
+              />
+            </div>
+            <div class="header-icon-label">
+              <label for="">Games</label>
+            </div>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <!-- --- SECTION PART --- -->
+
+    <section>
+      <!-- Category 1 -->
+
+      <div class="container">
+        <h2>Science Fiction & Fantasy</h2>
+        <div class="section-book-row">
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Antipope.webp"
+              alt="Antipope cover"
+            />
+
+            <h3>The Antipope</h3>
+            <p class="section-book-author">Robert Rankin - 1992</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Mort.webp"
+              alt="Mort cover"
+            />
+            <h3>Mort</h3>
+            <p class="section-book-author">Terry Pratchett - 2012</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Sprouts-of-wrath.jpg"
+              alt="Sprouts of the wrath cover"
+            />
+            <h3>Sprouts Of Wrath</h3>
+            <p class="section-book-author">Robert Rankin - 1993</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/I Robot.webp"
+              alt="I, Robot cover"
+            />
+            <h3>I,Robot</h3>
+            <p class="section-book-author">Isaac Asimov - 2018</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="section-book-row">
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Vampire-academy.webp"
+              alt="Vampire academy cover"
+            />
+            <h3>Vampire Academy</h3>
+            <p class="section-book-author">Richelle Mead -2007</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Serpent-and-dove.webp"
+              alt="Serpent and dove cover"
+            />
+            <h3>Serpent And Dove</h3>
+            <p class="section-book-author">Shelby Mahurin - 2020</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Solaris.webp"
+              alt="Solaris cover"
+            />
+            <h3>Solaris</h3>
+            <p class="section-book-author">Stanisław Lem - 2016</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Draw down the moon.jpg"
+              alt="Draw down the moon cover"
+            />
+            <h3>Draw Down The Moon</h3>
+            <p class="section-book-author">P.C Cast - 2024</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Images brake -->
+      <img
+        class="section-add"
+        src="./images/Books/Add.png"
+        alt="add for 30% off on educational books"
+      />
+
+      <!-- Category 2 -->
+
+      <div class="container">
+        <h2>True Crime and Mysteries</h2>
+        <div class="section-book-row">
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Dead-famous.webp"
+              alt="Dead famous cover"
+            />
+            <h3>Dead Famous</h3>
+            <p class="section-book-author">Ben Elton - 2002</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Murder-on-the-express.webp"
+              alt="muder on the express cover"
+            />
+            <h3>Murder On The Express</h3>
+            <p class="section-book-author">Agatha Christie - 2007</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Missing411.jpg"
+              alt="Missing 411 cover"
+            />
+            <h3>Missing 411</h3>
+            <p class="section-book-author">David Paulides - 2012</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/The-Silent-Patient.webp"
+              alt="The silen patient cover"
+            />
+            <h3>The Silent Patient</h3>
+            <p class="section-book-author">Alex Michaelides - 2019</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Images brake -->
+      <img
+        class="section-add"
+        src="./images/Books/Add2.png"
+        alt="add for 60% off on kids books"
+      />
+
+      <!-- Category 3 -->
+      <div class="container">
+        <h2>Novels</h2>
+        <div class="section-book-row">
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Animal-farm.webp"
+              alt="animal farm cover"
+            />
+            <h3>Animal Farm</h3>
+            <p class="section-book-author">George Orwell - 2021</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/The-orange-girl.webp"
+              alt="The orange girl cover"
+            />
+            <h3>The Orange Girl</h3>
+            <p class="section-book-author">Jostein Gaarder - 2005</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/King-of-pride.webp"
+              alt="King of pride cover"
+            />
+            <h3>king Of Pride</h3>
+            <p class="section-book-author">Ana Huang - 2023</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+          <div class="section-book-card">
+            <img
+              class="section-book-cover"
+              src="./images/Books/Darkest-temptation.webp"
+              alt="Darkest temptation cover"
+            />
+            <h3>The Darkest Temptation</h3>
+            <p class="section-book-author">Danielle Lori - 2020</p>
+            <div class="section-book-price"><p>79.95,-</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- FOOTER PART --- -->
+
+    <footer>
+      <div class="footer-light-container">
+        <div class="footer-help">
+          <a href="index.html">Help Links</a>
+          <ul class="footer-help-links">
+            <li><a href="index.html">Customer Service</a></li>
+            <li><a href="index.html">Privacy & Security</a></li>
+            <li><a href="index.html">Delivery Options</a></li>
+            <li><a href="index.html">Returns Policy</a></li>
+            <li><a href="index.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-about">
+          <a href="index.html">About Us</a>
+          <ul class="footer-about-links">
+            <li><a href="index.html">Our Books PLC</a></li>
+            <li><a href="index.html">Our Shops</a></li>
+            <li><a href="index.html">Vacancies</a></li>
+          </ul>
+        </div>
+        <div class="footer-plus">
+          <a href="index.html">Plus Customer</a>
+          <h4>
+            Read about our Plus Member Benefits and get our Newsletter and Tips
+            on New Books and Exclusive Offers!
+          </h4>
+          <a href="href="
+            ><div class="footer-btn">
+              <h3>
+                BECOME A <span class="footer-member"><br />MEMBER!</span>
+              </h3>
+            </div></a
+          >
+        </div>
+        <div class="footer-image">
+          <img
+            src="images/footer/old_shop.jpg"
+            alt="Old black and white photograph of the outside of a bookshop"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
