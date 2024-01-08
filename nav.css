@@ -146,9 +146,9 @@ body {
   height: 9em;
 }
 
-.nav-links:hover .nav-item ul {
-  color: #f4f2f3;
+.nav-links:hover .nav-dropdown a {
   background-color: #aa210f;
+  color: #f4f2f3;
   border: 2px solid #f4f2f3;
 }
 
