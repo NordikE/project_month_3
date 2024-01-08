@@ -1,13 +1,16 @@
 /* font-family: "Sofia Sans", sans-serif;
 font-family: "Playfair Display", serif; */
 
+body {
+  margin: 0;
+}
+
 .footer-light-container {
   font-family: "Playfair Display", serif;
   color: #f4f2f3;
   background-color: #31496b;
   display: flex;
   flex-direction: row;
-  margin: 1em;
 }
 
 .footer-light-container ul,

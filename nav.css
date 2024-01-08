@@ -2,10 +2,18 @@
 font-family: "Playfair Display", serif; */
 
 /* --- Navigation bar with logo, links to all pages, search, log in, my page and shopping cart --- */
+
+body {
+  margin: 0;
+}
+
 .nav-light-container {
   background-color: #f4f2f3;
   color: #31496b;
   display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* --- Company logo --- */
@@ -18,10 +26,10 @@ font-family: "Playfair Display", serif; */
 /* --- Nav search field and buttons --- */
 
 .nav-top {
-  width: 60em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 3em;
 }
 
 /* --- Nav search field --- */
@@ -40,11 +48,12 @@ font-family: "Playfair Display", serif; */
 }
 
 .nav-search-field input {
-  margin-left: 20em;
+  margin-left: 10em;
   height: 2em;
   width: 15em;
   border: 2px solid #31496b;
   border-radius: 1em;
+  padding-left: 0.5em;
 }
 
 /* --- Nav log in, my page and shopping cart buttons --- */
@@ -71,9 +80,9 @@ font-family: "Playfair Display", serif; */
 /* --- Nav bar navigation links --- */
 
 .nav-main {
-  width: 60em;
   display: flex;
   justify-content: space-around;
+  margin-right: 3em;
 }
 
 .nav-links {
@@ -140,6 +149,7 @@ font-family: "Playfair Display", serif; */
 
 .mode {
   margin-top: 3.5em;
+  margin-left: 3.5em;
   height: 1em;
   padding: 0.5em 1em;
   font-family: "Sofia Sans", sans-serif;
