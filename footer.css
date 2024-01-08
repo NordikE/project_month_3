@@ -27,8 +27,9 @@ font-family: "Playfair Display", serif; */
 }
 
 .footer-help {
-  width: 20em;
+  width: 25%;
   padding: 2em 1em 2em 2em;
+  text-align: center;
 }
 
 .footer-about,
