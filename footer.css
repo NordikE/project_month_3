@@ -34,8 +34,9 @@ font-family: "Playfair Display", serif; */
 
 .footer-about,
 .footer-plus {
-  width: 20em;
+  width: 25%;
   padding: 2em 1em;
+  text-align: center;
 }
 
 .footer-plus {
@@ -47,10 +48,6 @@ font-family: "Playfair Display", serif; */
 .footer-about-links {
   list-style: none;
   padding: 0;
-}
-
-.footer-plus {
-  text-align: center;
 }
 
 .footer-btn {
