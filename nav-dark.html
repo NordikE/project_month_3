@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./nav-dark.css" />
+    <title>OurBooks</title>
+  </head>
+  <body>
+    <!-- --- Navigation bar with logo, links to all pages, search, log in, my page and shopping cart --- -->
+    <nav>
+      <div class="nav-dark-container">
+        <!-- --- Company logo --- -->
+        <div class="logo">
+          <img
+            src="./images/nav/Logo-dark.png"
+            alt="Company logo featuring an animated open book viewed from the top with stars eminating from the pages"
+          />
+        </div>
+        <div class="nav-fields">
+          <!-- --- Nav bar search field and buttons --- -->
+          <div class="nav-top">
+            <!-- --- Nav bar search field --- -->
+            <div class="nav-search">
+              <div class="nav-search-field">
+                <input type="text" placeholder="Browse for books.." />
+              </div>
+              <div class="nav-search-button">
+                <img src="./images/nav/mag_glass_dark.png" alt="Search icon" />
+              </div>
+            </div>
+            <!-- --- Nav bar log in, my page and shopping cart --- -->
+            <div class="nav-buttons">
+              <div class="nav-log-in">
+                <img src="./images/nav/padlock_dark.png" alt="Log in icon" />
+              </div>
+              <div class="nav-my-page">
+                <img src="./images/nav/my_page_dark.png" alt="My page icon" />
+              </div>
+              <div class="nav-shopping-cart">
+                <img
+                  src="./images/nav/shopping_cart_dark.png"
+                  alt="Shopping cart icon"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- --- Nav bar navigation links, dropdown and nested dropdown --- -->
+          <div class="nav-main">
+            <ul class="nav-links">
+              <li class="nav-item"><a href="index.html">Sales</a></li>
+              <li class="nav-item"><a href="index.html">New!</a></li>
+              <li class="nav-item nav-dropdown">
+                <a href="index.html">Books</a>
+              </li>
+              <ul class="nav-dropdown-links">
+                <li><a href="index.html">Top</a></li>
+                <li><a href="index.html">Fiction</a></li>
+                <li><a href="index.html">Crime</a></li>
+                <li><a href="index.html">Animated</a></li>
+
+                <li><a href="index.html">Non-Fiction</a></li>
+
+                <li><a href="index.html">Children's</a></li>
+
+                <li><a href="index.html">Other</a></li>
+              </ul>
+              <li class="nav-item"><a href="index.html">Hobby</a></li>
+              <li class="nav-item"><a href="index.html">Games</a></li>
+            </ul>
+
+            <!-- --- Nav dark mode button --- -->
+
+            <a class="mode" href="index-dark.html">Light Mode</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
