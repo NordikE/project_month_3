@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section */
+
+section {
+  text-align: center;
+  background: #262220;
+  color: #d6d1c4;
+}
+
+section h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  margin: 2em 0;
+  text-align: start;
+}
+
+section h2,
+h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+}
+
+section .container {
+  margin: 2em auto;
+  width: fit-content;
+}
+
+.section-book-row {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+.section-book-card {
+  border: 2px solid transparent;
+  padding: 1em;
+  margin-bottom: 4em;
+  border-radius: 1em;
+  transition: all ease 0.5s;
+}
+
+.section-book-card:hover {
+  border: 2px solid #d6d1c4;
+  box-shadow: 0.1em 0.1em 1em #d6d1c4;
+  scale: 110%;
+
+  .section-book-price {
+    background: #aa210f;
+  }
+}
+
+.section-book-cover {
+  width: 12em;
+  height: 17em;
+}
+
+.section-book-author {
+  font-family: "Sofia Sans", sans-serif;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.section-book-price {
+  background: #31496b;
+  color: #f4f2f3;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.3em 2em;
+  font-size: 1.2rem;
+  transition: all ease 0.5s;
+}
+
+.section-book-price:hover {
+  scale: 103%;
+  box-shadow: 0.1em 0.1em 0.2em #262220;
+  cursor: pointer;
+}
+
+.section-add {
+  max-width: 100%;
+}
