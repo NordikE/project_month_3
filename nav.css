@@ -106,15 +106,18 @@ font-family: "Playfair Display", serif; */
   position: absolute;
   min-width: 10em;
   z-index: 2;
+  top: 2em;
+  left: 20em;
   list-style: none;
   font-family: "Sofia Sans", sans-serif;
   color: #31496b;
   background-color: #f4f2f3;
 }
 
-.nav-dropdown-links a {
+.nav-dropdown-links ul {
   display: block;
   position: absolute;
+  font-size: 1em;
   color: #31496b;
   background-color: #f4f2f3;
 }
@@ -125,7 +128,7 @@ font-family: "Playfair Display", serif; */
 
 .nav-links:hover .nav-dropdown-links {
   display: block;
-  width: 30em;
+  width: 10em;
   height: 30em;
 }
 
@@ -147,10 +150,24 @@ font-family: "Playfair Display", serif; */
 }
 
 .nav-dropdown-nested a {
-  display: block;
+  display: none;
   position: absolute;
   color: #31496b;
   background-color: #f4f2f3;
+}
+
+.nav-dropdown-nested a:hover {
+  background-colour: red;
+}
+
+.nav-dropdown-links:hover .nav-dropdown-nested {
+  display: block;
+  width: 10em;
+  height: 30em;
+}
+
+.nav-dropdown-links:hover .nav-dropdown {
+  background-color: #123456;
 }
 
 /* --- Dark mode button --- */
