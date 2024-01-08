@@ -99,6 +99,8 @@ font-family: "Playfair Display", serif; */
   text-decoration: none;
 }
 
+/* --- Dropdown menu --- */
+
 .nav-dropdown-links {
   display: none;
   position: absolute;
@@ -123,11 +125,15 @@ font-family: "Playfair Display", serif; */
 
 .nav-links:hover .nav-dropdown-links {
   display: block;
+  width: 30em;
+  height: 30em;
 }
 
 .nav-links:hover .nav-items {
   background-color: #123456;
 }
+
+/* --- Nested dropdown menu --- */
 
 .nav-dropdown-nested {
   display: none;
